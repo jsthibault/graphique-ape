@@ -452,7 +452,11 @@ $(function () {
           title: {
               text: name,
           },
-
+          plotOptions: {
+            series: {
+                fillOpacity: 0.5
+            }
+          },
           //colors: ['red'],
 
           xAxis: {
