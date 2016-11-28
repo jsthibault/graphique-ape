@@ -1,0 +1,15 @@
+<h1>Graphique#tech3</h1>
+<p>Find me in app/views/test/create.html.erb</p>
+
+
+<%= @_error %>
+<div id="nb" value=<%= @_arrayOfStudent.length.to_json %>></div>
+
+<% @_arrayOfStudent.length.times do |i| %>
+  <div  date=<%= @_arrayOfStudent[i].getDate().to_json %>
+        name=<%= @_arrayOfStudent[i].getName() %>
+        creditacquis=<%= @_arrayOfStudent[i].getCrediAcquis().to_json %>
+        creditencours=<%= @_arrayOfStudent[i].getCrediEnCours().to_json %>
+        creditobjectif=<%= @_arrayOfStudent[i].getCrediObjectifs().to_json %>
+        id="container<%= i %>" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<% end %>
