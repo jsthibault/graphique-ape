@@ -14,7 +14,7 @@ class GraphiquesController < ApplicationController
       };
       @_error = "no error";
       @_arrayOfStudent = Array.new();
-      @tmp = Student.new("bob");
+      #@tmp = Student.new("bob");
       #@_arrayOfStudent.push(@tmp);
       csvList = self.getCSVList(getPath());
 
@@ -44,10 +44,10 @@ class GraphiquesController < ApplicationController
         reader.each_with_index { |value, index|
           if (index != 0)
             value.each_with_index { |stud, i|
-              if (i == @_indexTab[:name]) #&& cmpStudent(stud) == false)
+              if (i == @_indexTab[:name]) 
                 res = cmpStudent(stud);
                 if (res == false)
-                  @tmp = Student.new(stud); #change if student aready exist
+                  @tmp = Student.new(stud);
                 else
                   @tmp = @_arrayOfStudent[res];
                 end
