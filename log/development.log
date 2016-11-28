@@ -6886,3 +6886,80 @@ Processing by GraphiquesController#tech3 as HTML
 Completed 200 OK in 178ms (Views: 112.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-11-28 11:42:39 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 135ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/mowgli/Ruby/graph_student/app/views/graphiques/tech3.html.erb:11: syntax error, unexpected tIVAR, expecting ')'
+...t[i].getName() @_arrayOfStudent[i].getGPA() );@output_buffer...
+...                               ^):
+  
+app/views/graphiques/tech3.html.erb:11: syntax error, unexpected tIVAR, expecting ')'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.1ms)
+Started GET "/" for ::1 at 2016-11-28 11:43:12 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (58.1ms)
+Completed 200 OK in 153ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:46:20 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (131.9ms)
+Completed 200 OK in 363ms (Views: 283.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:46:52 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (47.7ms)
+Completed 200 OK in 222ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:47:18 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (58.9ms)
+Completed 200 OK in 221ms (Views: 176.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:48:21 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (127.7ms)
+Completed 200 OK in 335ms (Views: 259.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:50:24 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (73.1ms)
+Completed 200 OK in 340ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:50:59 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (65.9ms)
+Completed 200 OK in 241ms (Views: 191.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 11:54:08 +0100
+Processing by GraphiquesController#tech3 as HTML
+  Rendering graphiques/tech3.html.erb within layouts/application
+  Rendered graphiques/tech3.html.erb within layouts/application (127.0ms)
+Completed 200 OK in 241ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+

@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CSV that are need for tech3 must be on app/assets/csv/tech3/tech3-results-08102016.csv
 
-Things you may want to cover:
+The norm of the csv must be the same as the CSV export by Hadrien.
 
-* Ruby version
+Or you can try to get it by yourself, here is the index of searching :
 
-* System dependencies
+@_indexTab = {
+        :creditacquis => 3,
+        :creditencours => 4,
+        :creditobjectif => 5,
+        :gpa => 1,
+        :name => 0
+      };
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

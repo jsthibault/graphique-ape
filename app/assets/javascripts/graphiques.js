@@ -407,7 +407,7 @@ $(function () {
   var i = parseInt(JSON.parse(jQuery("#nb").attr("value")));
   var nb = 0;
 
-  while (nb <= i)
+  while (nb < i)
   {
     tmp = "#" + str + nb;
     //console.log(tmp);
@@ -425,8 +425,11 @@ $(function () {
     var objJson = JSON.parse(jQuery(tmp).attr("creditobjectif"));
     var objTab = [];
 
+    var gpaJson = JSON.parse(jQuery(tmp).attr("gpa"));
+    var gpaTab = [];
+
     for(var x in dateJson) {
-      dateTab.push(dateJson[x]);
+      dateTab.push(dateJson[x] + " GPA : " + gpaJson[x]);
     }
 
     for(var x in acquisJson) {
