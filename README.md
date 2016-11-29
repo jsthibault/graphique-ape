@@ -1,6 +1,6 @@
 # README
 
-CSV that are need for tech3 must be on app/assets/csv/tech3/tech3-results-08102016.csv
+CSV that are need for tech3/tech2 must be on app/assets/csv/tech(3/2)/tech-results-08102016.csv
 
 The norm of the csv must be the same as the CSV export by Hadrien.
 
