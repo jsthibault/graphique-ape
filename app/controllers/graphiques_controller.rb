@@ -4,7 +4,9 @@ require 'json'
 class GraphiquesController < ApplicationController
   public
     def tech3
-      @_path = "./app/assets/csv/tech3/";
+      @url = request.original_fullpath;
+      @url = @url.split('/').last;
+      @_path = "./app/assets/csv/#{@url}/";
       @_indexTab = {
         :creditacquis => 3,
         :creditencours => 4,
@@ -44,7 +46,7 @@ class GraphiquesController < ApplicationController
         reader.each_with_index { |value, index|
           if (index != 0)
             value.each_with_index { |stud, i|
-              if (i == @_indexTab[:name]) 
+              if (i == @_indexTab[:name])
                 res = cmpStudent(stud);
                 if (res == false)
                   @tmp = Student.new(stud);
